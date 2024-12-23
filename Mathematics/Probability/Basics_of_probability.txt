@@ -1,0 +1,37 @@
+Probability - 
+Probability means the chances or percentage for a certain event to happen. It means the chances of a certain event happening.
+
+Here are some of the attributes required to calculate probability - 
+
+*Trials - All of the events that occurred.
+*Event - A certain type or kind of event that occurred in trials.
+
+		
+					FOR EXAMPLE - 
+A coin is tossed 1000 times. 445 times the result is tail and 555 times the result is heads.
+
+					So applying the attributes - 
+Trials = 1000
+Events = Tails(445), Heads(555)
+
+					Calculating probability - 
+Now to calculate the probability for a certain event we can use this predefined formula that uses trials and events to get the probability of that event happening.
+
+					Formula - 
+
+Probability(event) = Events/Trials
+
+
+so in the earlier case of heads and tails let's calculate the probability for heads - 
+
+555(heads)/1000(trials) = 0.555(heads probability)
+
+445(tails)/1000(trials) = 0.445(tails probability)
+
+
+Another thing to keep in mind is that all the events can be calculated and each will have its own probability.
+NOTE - Now if you add up the probability of all the events the result will always be 1.
+					For example - 
+probability of heads = 0.555
+probability of tails = 0.445 
+addition of both turns into = 1
