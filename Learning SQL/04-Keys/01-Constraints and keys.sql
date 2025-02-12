@@ -49,7 +49,7 @@ drop table if exists employees;
 create table employees(
 	employee_id serial primary key,
 		email varchar(50) unique,
-		phone_no varchar(50) unique, 
+		phone_no varchar(50) unique, 	
         age int check (age>=18),	
 		name varchar(50),
 		department varchar(50),
