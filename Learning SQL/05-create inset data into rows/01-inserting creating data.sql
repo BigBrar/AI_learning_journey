@@ -58,3 +58,10 @@ select * from example_table;
 insert into example_table()
 values();
 select * from example_table;
+
+
+-- testing filling data without order 
+use employees;
+insert into employees()
+values(90,'jaspreet','singh/kaur',5,'2024-05-06'); -- the id should be unique.
+select * from employees;
